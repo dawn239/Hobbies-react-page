@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  font-family: candara;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+p {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: left;
+  font-size: 30px;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.list {
+  text-align: left;
+  justify-items: start;
+}
+
+.blanketimg {
+  height: 300px;
+  width: 400px;
+}
+
+.walking {
+  height: 500px;
+  width: 400px;
+}
+
+.Link:link {
+  color: blue
+}
+
+.Link:visited {
+  color: red;
+}
+
+.Link:hover {
+  font-weight: bold;
+}
+#blanketExample {
+  background-color: blanchedalmond;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+#walkExample {
+  background-color: blanchedalmond;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+#bookLink {
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 18px;
+  color: deeppink;
+}
+
+h2 {
+  font-size: 40px;
+  color:rgb(44, 224, 155)
+  
+}
+
+.book {
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #39e9a6;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(224, 44, 215);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
